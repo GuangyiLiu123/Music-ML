@@ -1,2 +1,8 @@
-# Music-ML
-This is a project
+# Music Machine Learning and Key Signature Detection
+## Introduction
+Music is a method of expression dating back thousands of years. There are features in music that can be identified with machine learning or algorithms. This project is a suite of tools that are intended to identify key signature as well as composer. The below exerpts seek to summarize and explain the different tools in this suite of tools as well as their functionalities.
+## Key Signature Identification
+Key signature is the arrangement of sharps and flats in music, which are indications that a particular note must be played with a semitone raised or lowered from the note written. Key signature indicates which pitches are raised or lowered from their original pitch throughout the whole section or piece. All songs have a key signature, though key signature can change throughout the piece. There are a total of 12 keys on the piano creating 24 common key signatures, as there is one minor for every major key. All keys of the same type (Major/Minor) have a different tonic t). Major and Minor keys can have the same tonic, but they have modulations on certain pitches, notably thirds. Minor keys have a lowered third, while major keys have a raised third(blue theory book). Generally, if a piece of music is of a certain key signature, there is a high concentration of the tonic and dominant(5th) of that key(graphs/data), mainly due to it sounding the most natural with the given key signature.
+## Composer Identification
+Different composers have distinct ways to expressing their feelings onto pieces. Thus, composers can often be identified based off features in their music. In this suite of tools, the composer identification is done through a neural network that analyzes different features, then uses these features to create a model that identifies pieces and catagorizes them through these features. The list of features is shown below
+![alt text](https://gyazo.com/eef548bc4b60a0316959c8db988ca014)
