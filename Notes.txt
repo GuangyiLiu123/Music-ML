@@ -1,0 +1,13 @@
+1. Sometimes, "Open in Colab" doesn't appear. Please add the following to cells of the notebook:
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/GuangyiLiu123/Music-ML/blob/main/<notebookname>.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+
+2. 
